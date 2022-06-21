@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    transition-property:all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ;
+}
+
+
+h1:hover{
+    color:red;
+    background-color:green;
+}
+
+ul{
+    text-align: right;
+    list-style: none;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    width: 150px; 
+    text-align: center;
+    color:black;
+    display: inline-block;
+    background-color: #800000;
+    text-decoration: none;
+    text-transform:uppercase;
+    padding: 5px;
+    margin:5px 10px;
+    transition: 1s linear;
+}
+
+ul li a:hover{
+    background-color: #4dffc3;
+}
+
+img{
+    width:400px;
+    height: 300px;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+}
+
+img:hover{
+    width: 600px;
+}
+
+p{
+    padding:10px;
+}
+
+
+
+
+ 
+
+.animation:hover{
+    animation-play-state: paused;
+}
+
+@keyframes preloader{
+    /* from{
+        background-color: brown;
+        width:200px;
+    }
+    to{
+        background-color:chartreuse;
+        width:500px;
+    } */
+    0%{
+        background-color: red;
+        left:0;
+    }
+     10%{
+        background-color: green;
+
+    }
+    20%{
+        background-color: blue;
+    }
+    30%{
+        background-color: black;
+    }
+    40%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: cyan;
+    }
+    60%{
+        background-color: gold;
+    }
+    70%{
+        background-color: white;
+    }
+    80%{
+        background-color: pink;
+    }
+    90%{
+        background-color: darkviolet;
+    } 
+    100%{
+        background-color:darkslategray;
+        left:300px
+    }
+
+}
